@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+}
+
+.information{
+    display: flex;
+    justify-content: center;
+}
+
+.information h3{
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.photos{
+    display: flex;
+    flex-direction: row;
+}
+
+.photo_11, .photo_12, .photo_13, .photo_14{
+    width: 170px;
+}
+
+
+.information_photos{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.photo_1, .photo_2, .photo_3, .photo_4 {
+    width: 160px; 
+    height: 160px; 
+    border: 4px rgb(0, 166, 255) solid;
+    border-radius: 9px;
+    margin-bottom: -10px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: #e5e7eb;
+    margin-top: 80px;
+}
+
+.quote p{
+    max-width: 800px;
+}
+
+.quote .thorau{
+    padding-left: 400px;
+    margin-top: -30px;
+}
+
+
+
+

@@ -1,0 +1,83 @@
+header{
+    background-color: #1f2937;
+    padding-left: 50px;
+}
+
+.logo{
+    padding-left: 110px;
+}
+
+.elements{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    height: 30px;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.awesome_website p, .placeholder p{
+    margin-top: 30px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.awesome_website h2{
+    font-size: 48px;
+    color: #f9faf8;
+    margin-bottom: -27px;
+}
+
+button{
+    background-color: #3882f6;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: none;
+    border-radius: 5px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.awesome_website{
+    max-width: 400px;
+    height: 300px;
+}
+
+.placeholder{
+    display: inline-block;
+    background-color: gray;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.tauko{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    padding-bottom: 70px;
+    padding-top: 50px;  
+}
+
+.website_p{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
